@@ -1,0 +1,313 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Raleway:wght@400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.z-index-1 {
+    z-index: 1;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.w-102 {
+    width: 102%;
+}
+header>div {
+    height: 102px;
+    padding: 0 5%;
+}
+header .logo {
+    height: 41px;
+    overflow: hidden;
+}
+header nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: #000;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-bottom: 3px solid #4BA87D;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+header nav a:hover {
+    color: #4BA87D;
+}
+header nav a:last-child {
+    background-color: #4BA87D;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #4BA87D;
+}
+header nav a:last-child:hover {
+    background-color: transparent;
+    color: #4BA87D;
+}
+
+.hero {
+    padding-bottom: 120px;
+}
+.hero .container {
+    background: url();
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 80px 13.5px;
+}
+
+.hero h1 {
+    font-size: 59px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+}
+.hero p {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.hero a {
+    border: 2px solid #4BA87D;
+    padding: 10px 35px;
+    font-size: 21;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: #4BA87D;
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.hero a:hover {
+    background-color: transparent;
+    color: #4BA87D;
+}
+.hero a:last-child {
+    background-color: transparent;
+    color:#4BA87D;
+}
+.hero a:last-child:hover {
+    background-color: #4BA87D;
+    color: #fff;
+}
+
+.video .content::before {
+    position: absolute;
+    content: "abc";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4BA87D;
+    opacity: .3;
+}
+.video .content-wrapper {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.video .content h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.video a {
+    background-color: white;
+    color: #4BA87D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18;
+    font-weight: 600;
+    padding: 10px 22px;
+    border: 2px solid #fff;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.video a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #4BA87D;
+}
+
+.sec3 .my-card {
+    box-shadow: 0px 0px 10px 1px rgba(50, 50, 56, 0.5);
+}
+.sec3 .my-card .text {
+    padding: 25px;
+}
+.sec3 p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+} 
+.sec3 .my-card p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.sec3 .my-card a {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #4BA87D;
+}
+
+.sec3 h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+}
+.sec3-bg {
+    top: -60%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.sec4 .box {
+    box-shadow: 0px 0px 10px 1px rgba(50, 50, 56, 0.5);
+}
+.sec4 .box::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: .4;
+}
+.sec4 .text {
+    padding-left: 27px;
+    color: white;
+}
+.sec4 .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.sec4 .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+.sec4 h1 {
+    font-family: 'Playfair Display', cursive;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+
+.sec4 .my-form input{
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 21px;
+
+}
+.sec4 .my-form button{
+    font-family: 'Raleway';
+    font-size: 21px;
+    height: 100%;
+    border: 2px solid #4BA87D;
+    background-color: #4BA87D;
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.sec4 .my-form button:hover{
+    border: 2px solid #4BA87D;
+    background-color: #fff;
+    color: #4BA87D;
+}
+
+.sec5 h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.get-started {
+    background-color: #4BA87D;
+}
+.get-started h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 60px;
+}
+.get-started a {
+    padding: 10px 20px;
+    color: #4BA87D;
+    background-color: #fff;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.get-started a:hover {
+    background-color: #4BA87D;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+footer a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
+footer a:hover {
+    color: #4BA87D;
+}
+footer p, footer span {
+    font-size: 15;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+footer .line {
+    width: 100%;
+    border-top: 1px solid rgba(50, 50, 56, 0.5);
+}
